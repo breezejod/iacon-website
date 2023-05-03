@@ -32,7 +32,7 @@ useIntervalFn(() => {
         <div class="flex flex-col w-full mb-12 text-center">
           <div
             class="hidden md:inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mx-auto mb-5 text-blue-600 rounded-full bg-gray-50 opacity-60">
-            <img src="src/assets/logo.png" class="invert" width="63" alt="idk" />
+            <img src="../assets/logo.png" class="invert" width="63" alt="idk" />
           </div>
           <h1
             class="max-w-5xl text-2xl font-bold leading-none tracking-tighter md:text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">

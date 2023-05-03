@@ -4,7 +4,7 @@
       <img
         alt="iacon logo"
         class="pointer-events-none md:mx-8 py-5 justify-center mx-auto"
-        src="src/assets/logo.png"
+        src="../assets/logo.png"
         width="45" />
     </router-link>
     <span class="my-auto flex justify-center font-extrabold tracking-widest"> IACON LABS </span>

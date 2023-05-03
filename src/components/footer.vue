@@ -3,7 +3,7 @@
     <div v-motion-slide-visible-bottom class="container px-6 py-8 mx-auto">
       <div class="flex flex-col items-center text-center">
         <router-link to="/">
-          <img class="w-auto h-7" src="src\assets\logo-full.svg" alt="" />
+          <img class="w-auto h-7" src="../assets/logo-full.svg" alt="" />
         </router-link>
       </div>
 
