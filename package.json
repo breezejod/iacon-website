@@ -10,6 +10,9 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "@vueuse/core": "^10.1.2",
+    "@vueuse/motion": "2.0.0-beta.12",
+    "@vueuse/shared": "^10.1.2",
     "vue": "^3.2.47",
     "vue-router": "^4.1.6"
   },

@@ -1,4 +1,22 @@
-@import './base.css';
+/* eslint-disable no-undef */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply hover:bg-focus rounded-md hover:text-white transition duration-150;
+  }
+  .accenttext {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-brand;
+  }
+  .gradcolor {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-sky-600 to-cyan-300;
+  }
+}
+
+html {
+  color-scheme: dark;
+}
