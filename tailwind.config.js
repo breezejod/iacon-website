@@ -11,7 +11,8 @@ module.exports = {
      colors: {
         'inactive': '#9898a1', 
         'focus': '#333333',
-        'wolwhite': '#c6c6c6'
+        'wolwhite': '#c6c6c6',
+        'brand': '#3b82f6'
     },
     }
   },

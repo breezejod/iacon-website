@@ -1,6 +1,6 @@
 <template>
   <footer class="pt-44">
-    <div v-motion-slide-visible-bottom class="container px-6 py-8 mx-auto">
+    <div class="container px-6 py-8 mx-auto">
       <div class="flex flex-col items-center text-center">
         <router-link to="/">
           <img class="w-auto h-7" src="../assets/logo-full.svg" alt="" />
@@ -23,14 +23,14 @@
 
         <div class="flex mx-2 mt-2">
           <a
-            href="https://twitter.com/intent/user?screen_name=IaconLabs"
+            href="https://twitter.com/IaconLabs"
             class="mx-3 text-gray-500 hover:text-blue-400 transition-all duration-150"
             aria-label="twitter"
             target="_blank">
             <i class="bx bxl-twitter text-3xl"></i>
           </a>
           <a
-            href="https://discord.gg/V9zZvJaH8P"
+            href="https://discord.gg/xrtrYH64Fz"
             class="mx-3 text-gray-500 hover:text-blue-800 transition-all duration-150"
             aria-label="twitter"
             target="_blank">
