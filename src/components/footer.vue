@@ -19,7 +19,7 @@
             >
           </a>
         </p> -->
-        <p class="text-sm text-gray-500">© Copyright Iacon Labs 2023.</p>
+        <p class="text-sm text-gray-500">© Iacon Labs 2023.</p>
 
         <div class="flex mx-2 mt-2">
           <a
@@ -28,13 +28,6 @@
             aria-label="twitter"
             target="_blank">
             <i class="bx bxl-twitter text-3xl"></i>
-          </a>
-          <a
-            href="https://discord.gg/xrtrYH64Fz"
-            class="mx-3 text-gray-500 hover:text-blue-800 transition-all duration-150"
-            aria-label="twitter"
-            target="_blank">
-            <i class="bx bxl-discord-alt text-3xl"></i>
           </a>
         </div>
       </div>

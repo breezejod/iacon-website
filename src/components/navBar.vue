@@ -1,6 +1,6 @@
 <template>
   <div class="md:flex">
-    <router-link to="/" class="hover:rotate-12">
+    <router-link to="/">
       <img
         alt="iacon logo"
         class="pointer-events-none md:mx-8 py-5 justify-center mx-auto"

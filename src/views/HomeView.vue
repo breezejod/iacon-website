@@ -1,6 +1,5 @@
 <script setup>
 import NavBar from '../components/navBar.vue'
-import DiscordUsers from '../components/DiscordUsers.vue'
 import { ref } from 'vue'
 import { useIntervalFn } from '@vueuse/core'
 import { rand } from '@vueuse/shared'
@@ -45,7 +44,7 @@ useIntervalFn(() => {
           </h1>
 
           <p
-            class="max-w-xl font-theme mx-auto mt-8 text-base leading-relaxed text-center text-gray-500">
+            class="max-w-xl font-theme mx-auto mt-8 text-base leading-relaxed text-center text-gray-300">
             Our community is dedicated to exploring the endless possibilities of NFT technology and
             empowering artists and creators to showcase their unique talents to the world. Join us
             in shaping the future of the digital art world and become a part of the Alpha community
@@ -75,7 +74,7 @@ useIntervalFn(() => {
       </h1>
 
       <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
-        Know what we building
+        Know what we are building
       </p>
 
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
@@ -93,7 +92,7 @@ useIntervalFn(() => {
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
               <h2 class="font-medium title-font text-white mb-1 text-xl">Community Build-up</h2>
               <p class="leading-relaxed">
-                Making a strong community of Web# enthusiasts and teaching them about NFT and crypto
+                Making a strong community of Web3 enthusiasts and teaching them about NFT and crypto
               </p>
             </div>
           </div>
@@ -199,7 +198,6 @@ useIntervalFn(() => {
         </div>
       </div>
     </section>
-    <DiscordUsers />
   </main>
   <FooterMain />
 </template>
