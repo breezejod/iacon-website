@@ -31,11 +31,11 @@ useIntervalFn(() => {
         class="px-4 py-12 mx-auto max-w-7xl sm:px-6 md:px-12 lg:px-24 lg:py-24">
         <div class="flex flex-col w-full mb-12 text-center">
           <div
-            class="hidden md:inline-flex items-center justify-center flex-shrink-0 w-20 h-20 mx-auto mb-5 text-blue-600 rounded-full bg-gray-50 opacity-60">
+            class="items-center justify-center flex-shrink-0 hidden w-20 h-20 mx-auto mb-5 text-blue-600 rounded-full md:inline-flex bg-gray-50 opacity-60">
             <img src="../assets/logo.png" class="invert" width="63" alt="idk" />
           </div>
           <h1
-            class="max-w-5xl text-2xl font-bold leading-none tracking-tighter md:text-neutral-600 md:text-5xl lg:text-6xl lg:max-w-7xl">
+            class="max-w-5xl text-2xl font-extrabold leading-none tracking-tighter opacity-80 md:text-5xl lg:text-6xl lg:max-w-7xl">
             The Only
             <span class="gradcolor">
               {{ word }}
@@ -44,7 +44,7 @@ useIntervalFn(() => {
           </h1>
 
           <p
-            class="max-w-xl font-theme mx-auto mt-8 text-base leading-relaxed text-center text-gray-300">
+            class="max-w-xl mx-auto mt-8 text-base leading-relaxed text-center text-gray-300 font-theme">
             Our community is dedicated to exploring the endless possibilities of NFT technology and
             empowering artists and creators to showcase their unique talents to the world. Join us
             in shaping the future of the digital art world and become a part of the Alpha community
@@ -56,7 +56,7 @@ useIntervalFn(() => {
             target="_blank"
             class="mx-auto mt-8 text-sm font-semibold text-blue-600 hover:text-neutral-600"
             title="Twitter">
-            <button class="rounded-lg bg-blue-500 text-black px-2 py-2 hover:ring">
+            <button class="px-2 py-2 text-black bg-blue-500 rounded-lg hover:ring">
               Follow Us
             </button>
           </a>
@@ -64,10 +64,10 @@ useIntervalFn(() => {
       </div>
     </section>
     <div class="flex justify-center mb-16">
-      <i class="bx bx-chevrons-down bx-fade-up text-3xl text-focus"></i>
+      <i class="text-3xl bx bx-chevrons-down bx-fade-up text-focus"></i>
     </div>
 
-    <section class="body-font mt-20">
+    <section class="mt-20 body-font">
       <h1
         class="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
         Our <span class="text-blue-500">Roadmap</span>
@@ -77,20 +77,20 @@ useIntervalFn(() => {
         Know what we are building
       </p>
 
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
-          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+      <div class="container flex flex-wrap px-5 py-24 mx-auto">
+        <div class="relative flex pt-10 pb-20 mx-auto sm:items-center md:w-2/3">
+          <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
+            <div class="w-1 h-full bg-gray-800 pointer-events-none"></div>
           </div>
           <div
-            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-brand text-white relative z-10 title-font font-medium text-sm"></div>
-          <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white rounded-full sm:mt-0 bg-brand title-font"></div>
+          <div class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row">
             <div
-              class="flex-shrink-0 w-24 h-24 text-brand rounded-full inline-flex items-center justify-center">
-              <i class="bx bxs-group text-5xl"></i>
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full text-brand">
+              <i class="text-5xl bx bxs-group"></i>
             </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-white mb-1 text-xl">Community Build-up</h2>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-white title-font">Community Build-up</h2>
               <p class="leading-relaxed">
                 Making a strong community of Web3 enthusiasts and teaching them about NFT and crypto
               </p>
@@ -99,42 +99,42 @@ useIntervalFn(() => {
         </div>
         <div
           v-motion-slide-visible-bottom
-          class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+          class="relative flex pb-20 mx-auto sm:items-center md:w-2/3">
+          <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
+            <div class="w-1 h-full bg-gray-800 pointer-events-none"></div>
           </div>
           <div
-            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black ring-2 text-white relative z-10 title-font font-medium text-sm"></div>
-          <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-black rounded-full sm:mt-0 ring-2 title-font"></div>
+          <div class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row">
             <div
-              class="flex-shrink-0 w-24 h-24 text-brand rounded-full inline-flex items-center justify-center">
-              <i class="bx bxs-chart text-5xl"></i>
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full text-brand">
+              <i class="text-5xl bx bxs-chart"></i>
             </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-white mb-1 text-xl">Partnerships</h2>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-white title-font">Partnerships</h2>
               <p class="leading-relaxed">
-                Further growing by partnerships with other communities and great web3 projects
+                Further growing by partnerships with other web3 communities and great web3 projects around the world
               </p>
             </div>
           </div>
         </div>
         <div
           v-motion-slide-visible-bottom
-          class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+          class="relative flex pb-20 mx-auto sm:items-center md:w-2/3">
+          <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
+            <div class="w-1 h-full bg-gray-800 pointer-events-none"></div>
           </div>
           <div
-            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black ring-2 text-white relative z-10 title-font font-medium text-sm"></div>
-          <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-black rounded-full sm:mt-0 ring-2 title-font"></div>
+          <div class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row">
             <div
-              class="flex-shrink-0 w-24 h-24 text-brand rounded-full inline-flex items-center justify-center">
-              <i class="bx bxs-star text-5xl"></i>
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full text-brand">
+              <i class="text-5xl bx bxs-star"></i>
             </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-white mb-1 text-xl">Exclusive Perks</h2>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-white title-font">Exclusive Perks</h2>
               <p class="leading-relaxed">
-                Providing exclusive perks to the community including giveaways, merch, exclusive
+                Educating our community about web3 and security. Providing exclusive perks to the community including NFT giveaways, merch, exclusive
                 whitelists
               </p>
             </div>
@@ -142,19 +142,19 @@ useIntervalFn(() => {
         </div>
         <div
           v-motion-slide-visible-bottom
-          class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
-          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+          class="relative flex pb-20 mx-auto sm:items-center md:w-2/3">
+          <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
+            <div class="w-1 h-full bg-gray-800 pointer-events-none"></div>
           </div>
           <div
-            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black ring-2 text-white relative z-10 title-font font-medium text-sm"></div>
-          <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-black rounded-full sm:mt-0 ring-2 title-font"></div>
+          <div class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row">
             <div
-              class="flex-shrink-0 w-24 h-24 text-brand rounded-full inline-flex items-center justify-center">
-              <i class="bx bxs-phone-call text-5xl"></i>
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full text-brand">
+              <i class="text-5xl bx bxs-phone-call"></i>
             </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-white mb-1 text-xl">Alpha Calls</h2>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-white title-font">Alpha Calls</h2>
               <p class="leading-relaxed">
                 Helping the community make $$profit by providing well researched Alpha calls
               </p>
@@ -163,19 +163,19 @@ useIntervalFn(() => {
         </div>
         <div
           v-motion-slide-visible-bottom
-          class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
-          <div class="h-full w-6 absolute inset-0 flex items-center justify-center">
-            <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
+          class="relative flex pb-10 mx-auto sm:items-center md:w-2/3">
+          <div class="absolute inset-0 flex items-center justify-center w-6 h-full">
+            <div class="w-1 h-full bg-gray-800 pointer-events-none"></div>
           </div>
           <div
-            class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black ring-2 text-white relative z-10 title-font font-medium text-sm"></div>
-          <div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
+            class="relative z-10 inline-flex items-center justify-center flex-shrink-0 w-6 h-6 mt-10 text-sm font-medium text-white bg-black rounded-full sm:mt-0 ring-2 title-font"></div>
+          <div class="flex flex-col items-start flex-grow pl-6 md:pl-8 sm:items-center sm:flex-row">
             <div
-              class="flex-shrink-0 w-24 h-24 text-brand rounded-full inline-flex items-center justify-center">
-              <i class="bx bxs-purchase-tag-alt text-5xl"></i>
+              class="inline-flex items-center justify-center flex-shrink-0 w-24 h-24 rounded-full text-brand">
+              <i class="text-5xl bx bxs-purchase-tag-alt"></i>
             </div>
-            <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
-              <h2 class="font-medium title-font text-white mb-1 text-xl">Alpha Pass Launch</h2>
+            <div class="flex-grow mt-6 sm:pl-6 sm:mt-0">
+              <h2 class="mb-1 text-xl font-medium text-white title-font">Alpha Pass Launch</h2>
               <p class="leading-relaxed">cuz why not? Launching own alpha pass with new perks</p>
             </div>
           </div>

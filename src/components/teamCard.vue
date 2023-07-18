@@ -2,7 +2,7 @@
   <div
     v-for="item in team"
     :key="item.name"
-    class="px-12 py-8 transition-colors duration-300 transform border cursor-pointer rounded-xl border-focus shadow-inner shadow-gray-500">
+    class="px-12 py-8 transition-colors duration-300 transform border shadow-inner cursor-pointer rounded-xl border-focus shadow-gray-500">
     <div class="flex flex-col sm:-mx-4 sm:flex-row">
       <img
         class="flex-shrink-0 object-cover w-24 h-24 rounded-full sm:mx-4 ring-4 ring-gray-300"
@@ -24,18 +24,18 @@
       <a
         v-if="item.web"
         :href="item.web"
-        class="mx-3 hover:text-orange-400 transition-all duration-150"
+        class="mx-3 transition-all duration-150 hover:text-orange-400"
         aria-label="web"
         target="_blank">
-        <i class="bx bx-globe text-3xl"></i>
+        <i class="text-3xl bx bx-globe"></i>
       </a>
 
       <a
         :href="item.twitter"
-        class="mx-3 hover:text-blue-400 transition-all duration-150"
+        class="mx-3 transition-all duration-150 hover:text-blue-400"
         aria-label="twitter"
         target="_blank">
-        <i class="bx bxl-twitter text-3xl"></i>
+        <i class="text-3xl bx bxl-twitter"></i>
       </a>
     </div>
   </div>
@@ -53,7 +53,7 @@ export default {
           desc: '',
           img: 'https://i.seadn.io/gcs/files/7f0fa40af03eb1a08e373da9ae623d52.png?auto=format&w=256',
           web: '',
-          twitter: 'https://twitter.com/intent/user?screen_name=0xBreezey'
+          twitter: 'https://twitter.com/0xBreezey'
         },
         {
           name: 'Wolmer',
@@ -61,7 +61,7 @@ export default {
           desc: '',
           img: 'https://i.seadn.io/gcs/files/400bcca22aee447d1536966596122439.png?auto=format&w=256',
           web: 'https://wolmer.me?utm_source=iaconlabs.com',
-          twitter: 'https://twitter.com/intent/user?screen_name=thewolmer'
+          twitter: 'https://twitter.com/WolmerTweets'
         }
       ]
     }
