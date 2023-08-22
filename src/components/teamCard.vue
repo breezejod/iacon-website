@@ -32,7 +32,7 @@
 
       <a
         :href="item.twitter"
-        class="mx-3 transition-all duration-150 hover:text-blue-400"
+        class="mx-3 transition-all duration-150 hover:text-brand"
         aria-label="twitter"
         target="_blank">
         <i class="text-3xl bx bxl-twitter"></i>
@@ -53,7 +53,7 @@ export default {
           desc: '',
           img: 'https://i.seadn.io/gcs/files/7f0fa40af03eb1a08e373da9ae623d52.png?auto=format&w=256',
           web: '',
-          twitter: 'https://twitter.com/0xBreezey'
+          twitter: 'https://x.com/0xBreezey'
         },
         {
           name: 'Wolmer',
@@ -61,8 +61,36 @@ export default {
           desc: '',
           img: 'https://i.seadn.io/gcs/files/400bcca22aee447d1536966596122439.png?auto=format&w=256',
           web: 'https://wolmer.me?utm_source=iaconlabs.com',
-          twitter: 'https://twitter.com/WolmerTweets'
-        }
+          twitter: 'https://x.com/WolmerTweets'
+        },
+        {
+          name: 'Ethical',
+          role: 'Admin',
+          desc: '',
+          img: 'https://imgur.com/Nb8oPYn.png',
+          twitter: 'https://x.com/Chaitanyajeet06'
+        },
+        {
+          name: 'Sahil',
+          role: 'Admin',
+          desc: '',
+          img: 'https://imgur.com/LdFEqf9.png',
+          twitter: 'https://x.com/0xsahils'
+        },
+        {
+          name: 'P1ng',
+          role: 'Editor, Graphics Artist',
+          desc: '',
+          img: 'https://imgur.com/T9ZFC4C.png',
+          twitter: 'https://x.com/jatinbtw'
+        },
+        {
+          name: 'Jade RX',
+          role: 'Analyst',
+          desc: '',
+          img: 'https://imgur.com/6D0EKQk.png',
+          twitter: 'https://x.com/0xjaderx'
+        },
       ]
     }
   }

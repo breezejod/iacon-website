@@ -7,7 +7,7 @@
   <p class="max-w-2xl mx-auto my-6 text-center text-gray-500 dark:text-gray-300">
     Join other to explore iacon
   </p>
-  <div class="mx-auto flex items-center justify-center">
+  <div class="flex items-center justify-center mx-auto">
     <div class="flex items-center">
       <img
         v-for="item in users"
@@ -21,7 +21,7 @@
   <div class="flex items-center justify-center mt-10">
     <a href="https://discord.gg/xrtrYH64Fz" target="_blank">
       <button
-        class="px-4 py-2 bg-brand rounded-2xl shadow-xl shadow-brand/30 hover:shadow-brand/50 transition">
+        class="px-4 py-2 transition shadow-xl bg-brand rounded-2xl shadow-brand/30 hover:shadow-brand/50">
         Hit the button to get in!
       </button>
     </a>

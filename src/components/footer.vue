@@ -24,10 +24,10 @@
         <div class="flex mx-2 mt-2">
           <a
             href="https://twitter.com/IaconLabs"
-            class="mx-3 text-gray-500 hover:text-blue-400 transition-all duration-150"
+            class="mx-3 text-gray-500 transition-all duration-150 hover:text-brand"
             aria-label="twitter"
             target="_blank">
-            <i class="bx bxl-twitter text-3xl"></i>
+            <i class="text-3xl bx bxl-twitter"></i>
           </a>
         </div>
       </div>
