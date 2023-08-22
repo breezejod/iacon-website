@@ -2,6 +2,8 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import { MotionPlugin } from '@vueuse/motion'
+import 'boxicons/css/boxicons.min.css'
+
 
 
 import './assets/main.css'
