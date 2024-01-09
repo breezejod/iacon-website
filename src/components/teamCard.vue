@@ -71,13 +71,6 @@ export default {
           twitter: 'https://x.com/Chaitanyajeet06'
         },
         {
-          name: 'Sahil',
-          role: 'Admin',
-          desc: '',
-          img: 'https://imgur.com/LdFEqf9.png',
-          twitter: 'https://x.com/0xsahils'
-        },
-        {
           name: 'P1ng',
           role: 'Editor, Graphics Artist',
           desc: '',
