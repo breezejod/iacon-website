@@ -64,7 +64,7 @@ export default {
           twitter: 'https://x.com/WolmerTweets'
         },
         {
-          name: 'Ethical',
+          name: 'Chaitanya',
           role: 'Admin',
           desc: '',
           img: 'https://imgur.com/Nb8oPYn.png',
